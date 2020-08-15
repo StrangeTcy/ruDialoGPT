@@ -14,7 +14,7 @@ from .modeling_openai import (OpenAIGPTConfig, OpenAIGPTModel,
                               load_tf_weights_in_openai_gpt)
 from .modeling_transfo_xl import (TransfoXLConfig, TransfoXLModel, TransfoXLLMHeadModel,
                                   load_tf_weights_in_transfo_xl)
-from .modeling_gpt2 import (GPT2Config, GPT2Model,
+from modeling_gpt2 import (GPT2Config, GPT2Model,
                             GPT2LMHeadModel, GPT2DoubleHeadsModel,
                             load_tf_weights_in_gpt2)
 
