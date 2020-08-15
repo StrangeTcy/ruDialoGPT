@@ -31,7 +31,7 @@ except ImportError:
     def lru_cache():
         return lambda func: func
 
-from .file_utils import cached_path
+from file_utils.file_utils import cached_path
 
 logger = logging.getLogger(__name__)
 
