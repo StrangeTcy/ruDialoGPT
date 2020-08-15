@@ -1,4 +1,4 @@
-CHECKPOINT=../data/GP2-pretrain-step-300000.pkl
+CHECKPOINT= /content/ruDiaoGPT/data/GP2-pretrain-step-300000.pkl
 MODEL=./configs/345M_yttm/
 VOCAB=./configs/345M_yttm/vocab_50000.bpe
 
