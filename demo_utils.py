@@ -4,7 +4,7 @@
 import os
 import logging
 
-from transformers_dev.file_utils import http_get
+from file_utils.file_utils import http_get
 
 
 logger = logging.getLogger(__name__)
