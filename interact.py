@@ -16,7 +16,10 @@ from demo_utils import download_model_folder
 import argparse
 import subprocess as sp
 
-from transformers_dev import GPT2LMHeadModel, GPT2Config
+# from transformers_dev import GPT2LMHeadModel, GPT2Config
+from .modeling_gpt2 import (GPT2Config, GPT2Model,
+                            GPT2LMHeadModel, GPT2DoubleHeadsModel,
+                            load_tf_weights_in_gpt2)
 from lsp_model import RubertaTokenizer
 from gpt2_training.train_utils import get_eval_list_same_length, load_model, boolean_string, fix_state_dict_namespace
 
